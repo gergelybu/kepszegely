@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+article {
+  display: flex;
+}
+
+article img{
+  width: auto;
+  height: 500px;
+}
+
+.szegely {
+  border: solid 4px blue;
+}
+
+@media screen and (max-width: 400px) {
+  article{
+    flex-direction: column;
+  }
+  article img{
+    width: 300px;
+    height: auto;
+  }
+}
