@@ -5,7 +5,8 @@ function init() {
   const kepek = document.querySelectorAll("article img");
   for (let index = 0; index < kepek.length; index++) {
     let text = kepek[index].src;
-    word = text.split("http://127.0.0.1:5500/");
+    //word = text.split("http://127.0.0.1:5500/");
+    word = text.split("https://gergelybu.github.io/kepszegely/");
     Lista.push(word[1]);
     //Lista.push(kepek[index].src);
   }
